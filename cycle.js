@@ -7,9 +7,8 @@ function getSumOfEvenNumbers() {
       amount++;
     }
   }
-  return (`Sum of even numbers - ${sum}, amount - ${amount}`);
+  return `Sum of even numbers - ${sum}, amount - ${amount}`;
 }
-
 
 function checkPrimeNumber(num) {
   for (let i = 2; i < num; i++) {
@@ -32,18 +31,6 @@ function getMathSqrt(num) {
   }
   return sqrt;
 }
-
-// function a(num){
-//   let a = 0;
-//   let b = num;
-//   let middle = Math.floor((a + b) /2)
-//   while(num < a){
-//   if(middle * middle < num) num--;
-//   else num++
-//   }
-//   return num;
-// }
-// console.log(a(9))
 
 function getFactorial(num) {
   let number = 1;
